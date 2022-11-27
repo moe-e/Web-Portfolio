@@ -1,0 +1,51 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    margin-top: 100px;
+    text-align: center;
+    
+    height:200px;
+    font-size: 17px; 
+    column-gap:0px;  
+}
+
+
+.footer .email{
+    margin-top: 40px;
+}
+.footer .email a{
+    text-decoration: none;
+    color: white;
+}
+.footer .email a:hover{
+    opacity: 0.8;
+}
+
+.footer .text{
+    color: white;
+}
+
+.footer-pics{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin-top: 12px;
+    gap: 10px;
+    
+}
+
+.footer-pics .linkedin{
+    width: 35px;
+}
+
+.footer-pics .github{
+    width: 35px;
+    zoom: 165%;
+}
+
+
+.footer-pics img:hover{
+    opacity: 0.8;
+}

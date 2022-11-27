@@ -1,0 +1,63 @@
+.main-block{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:0;
+    right: 0;
+    align-items: center;
+    margin-top: 40px;   
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: rgba(212, 211, 211,0.3);
+    height: 620px;
+        
+}
+.my-pic{
+    width:200px;
+    margin-bottom: 30px;
+    border-radius: 100px;
+}
+
+.my-name{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.general{
+    margin-top:20px;
+    width:600px;
+    text-align: center;
+}
+
+.info{
+    margin-top:20px;
+    width:600px;
+    text-align: center;
+   
+}
+.conclusion{
+    margin-top:20px;
+    width:600px;
+    text-align: center;
+}
+.connect{
+    margin-top:35px;
+    background-color: black;
+    color:white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top:12px;
+    padding-bottom:12px;
+    border-radius:20px;
+    cursor: pointer;
+    transition: 0.15s;
+    margin-bottom: 50px;
+}
+.connect.night{
+    background-color: white;
+    color:black;
+}
+.connect:hover{
+    box-shadow: 1px 1px 12px rgba(190, 180, 180);
+}
+

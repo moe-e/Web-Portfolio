@@ -1,0 +1,10 @@
+body{
+    padding-top: 120px;
+    padding-bottom: 1500px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body.night{
+    background-color: black;
+    color: white
+}
