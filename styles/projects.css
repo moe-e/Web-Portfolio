@@ -27,7 +27,6 @@
     row-gap: 100px;
     justify-content: center;
     
-    
  
 }
 
@@ -41,6 +40,49 @@
    transition: 0.3s;
    
 }
+.project1{
+    animation: bounce 2.5s infinite linear;
+    display: inline-block;
+}
+.project2{
+    animation: bounce 2.5s infinite linear;
+    display: inline-block;
+}
+.project3{
+    animation: bounce 2.5s infinite linear;
+    display: inline-block;
+}
+.project4{
+    animation: bounce 2.5s infinite linear;
+    display: inline-block;
+}
+@keyframes bounce{
+   20% {
+    transform:translateY(4px);
+   }
+   
+   40% {
+    transform:translateY(4px);
+   }
+   60% {
+    transform:translateY(0px);
+   }
+  
+   80% {
+    transform:translateY(-4px);
+   }
+   90% {
+    transform:translateY(-4px);
+   }
+
+   100% {
+    transform:translateY(0px);
+   }
+ 
+ 
+}
+   
+
 
 .projects-grid img:hover{
     box-shadow: 1px 1px 12px #7e7e7e;
