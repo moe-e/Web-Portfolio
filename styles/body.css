@@ -96,8 +96,23 @@
     box-shadow: 1px 1px 12px rgba(190, 180, 180);
 }
 
+@media (max-width:460px){
+    .general{
+        width:300px;
+    }
+    
+    .info{
+        width:300px;
+    }
+    .conclusion{
+        width:300px;
+    }
+    .main-block{
+        height: 740px;
+}
+}
 
-@media (max-width:800px){
+@media (min-width:460px) and (max-width:800px){
     .general{
         width:400px;
     }
@@ -111,4 +126,5 @@
 
     .main-block{
         height: 700px;
-}}
+}
+}

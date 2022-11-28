@@ -109,7 +109,16 @@
  
  }
 
- @media (max-width:800px){
+ @media (max-width:550px){
+   
+.projects-grid{
+    grid-template-columns: 250px ;
+}
+
+
+}
+
+ @media (min-width:550px) and (max-width:800px){
     .projects-grid{
         grid-template-columns: 350px;
     }
