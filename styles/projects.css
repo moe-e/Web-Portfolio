@@ -108,6 +108,10 @@
  
  
  }
- 
 
- 
+ @media (max-width:800px){
+    .projects-grid{
+        grid-template-columns: 350px;
+    }
+
+}

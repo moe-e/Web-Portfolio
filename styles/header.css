@@ -45,6 +45,7 @@
 
 .github-image{
     width: 50px;
+    margin-right: 105px;
     
 }
 
@@ -127,3 +128,51 @@
 }
 
 
+@media (max-width:800px){
+   
+    
+    .right-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+        flex:1;
+        font-size: 15px;
+    }
+
+    .linkedin-image{
+        width: 40px;
+    }
+    
+    .github-image{
+        width: 40px;
+        margin-right: 60px;
+        
+    }
+
+    .moon-image{
+        height:20px;
+        
+     }
+
+     .about-button{
+        margin-right: 25px;
+        
+    }
+    
+    .projects-button{
+        margin-right: 25px;
+        
+    }
+    .contact-button a{
+     
+        margin-right: 25px;
+        
+    }
+    .resume-button a{
+     
+        margin-right: 25px;
+        
+    }
+
+}

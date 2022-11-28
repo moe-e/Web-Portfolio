@@ -96,3 +96,19 @@
     box-shadow: 1px 1px 12px rgba(190, 180, 180);
 }
 
+
+@media (max-width:800px){
+    .general{
+        width:400px;
+    }
+    
+    .info{
+        width:400px;
+    }
+    .conclusion{
+        width:400px;
+    }
+
+    .main-block{
+        height: 700px;
+}}
