@@ -1,7 +1,7 @@
 .header{
     display: flex;
     flex-direction: row;
-    height:124px;
+    height:120px;
     align-items: center;
     position: fixed;
     top:0;
@@ -23,6 +23,8 @@
     justify-content: right;
     width:300px;
     margin-right: 20px;
+    
+    
 }
 
 .right-section{
@@ -32,6 +34,7 @@
     align-items: center;
     flex:1;
     font-size: 20px;
+    
 }
 
 .linkedin-button{
@@ -127,10 +130,23 @@
   
 }
 @media (max-width:460px){
+    .header{
+        height:80px;
+        
+    }
+    
+    .left-section{
+        margin-top: 10px;
+    }
 
     .right-section{
-       
+        margin-top: 10px;
         font-size: 13px;
+    }
+
+    .linkedin-button{
+        margin-right:3px;
+        margin-left: 1px;
     }
 
     .linkedin-image{
@@ -139,12 +155,13 @@
     
     .github-image{
         width: 20px;
-        margin-right: 1px;
+        margin-right: 3px;
         
     }
 
     .moon-click{
         height: 25px;
+        margin-right: 10px;
     }
     .moon-image{
         height:12px;
@@ -152,31 +169,38 @@
      }
 
      .about-button{
-        margin-right: 12px;
+        margin-right: 8px;
         
     }
     
     .projects-button{
-        margin-right: 12px;
+        margin-right: 8px;
         
     }
     .contact-button a{
      
-        margin-right: 12px;
+        margin-right: 8px;
         
     }
     .resume-button a{
      
-        margin-right: 12px;
+        margin-right: 8px;
         
     }
 }
 
 @media (min-width:460px) and (max-width:600px){
-   
+    .header{
+        height:80px;
+        
+    }
+    
+    .left-section{
+        margin-top: 10px;
+    }
     
     .right-section{
-       
+        margin-top: 10px;
         font-size: 13px;
     }
 
