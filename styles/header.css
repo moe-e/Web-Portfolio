@@ -137,16 +137,19 @@
     
     .left-section{
         margin-top: 10px;
+        justify-content: left;
     }
 
     .right-section{
         margin-top: 10px;
         font-size: 13px;
+    
     }
 
     .linkedin-button{
         margin-right:3px;
-        margin-left: 1px;
+        margin-left: 20px;
+        
     }
 
     .linkedin-image{
@@ -206,11 +209,16 @@
 
     .linkedin-image{
         width: 25px;
+        margin-right:3px;
+    }
+
+    .linkedin-button{
+        margin-right: 3px;
     }
     
     .github-image{
         width: 25px;
-        margin-right: 50px;
+        margin-right: 70px;
         
     }
 
@@ -292,4 +300,18 @@
         
     }
 
+}
+
+@media (max-width:387px)
+{
+    .github-image{
+        margin-right: 1px;
+        
+    }
+
+    
+    .right-section{
+       
+        font-size: 11px;
+    }
 }

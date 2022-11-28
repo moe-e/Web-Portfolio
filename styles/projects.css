@@ -113,6 +113,7 @@
    
 .projects-grid{
     grid-template-columns: 250px ;
+    row-gap: 125px;
 }
 
 
@@ -121,6 +122,7 @@
  @media (min-width:550px) and (max-width:800px){
     .projects-grid{
         grid-template-columns: 350px;
+        row-gap: 125px;
     }
 
 }
