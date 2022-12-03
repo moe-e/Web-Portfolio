@@ -1,11 +1,14 @@
-body{
+body {
     padding-top: 120px;
     padding-bottom: 1500px;
     font-family: 'Roboto', sans-serif;
-    
 }
 
-body.night{
+body.night {
     background-color: black;
     color: white
+}
+
+.web_icon{
+    border-radius: 10px;
 }
