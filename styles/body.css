@@ -14,10 +14,18 @@
 }
 .my-pic{
     width:200px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     border-radius: 100px;
-    
+    animation: bounce 1.7s infinite linear;
+    display: inline-block;
 }
+@keyframes bounce{
+
+
+    50% { transform: translateY(-10px) }
+   
+}
+ 
 
 .my-name{
     font-weight: 700;
@@ -93,7 +101,7 @@
     color:black;
 }
 .connect:hover{
-    box-shadow: 1px 1px 12px rgba(190, 180, 180);
+    box-shadow: 1px 1px 22px rgb(154, 148, 148);
 }
 
 @media (max-width:460px){
